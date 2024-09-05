@@ -4,24 +4,24 @@ function About() {
   return (
     <div
       name="About"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20"
+      className=" md:px-10 mt-6 pr-6 mx-6 bg-[#1e1e1e] text-white"
     >
-      <div>
-        <h1 className="text-3xl font-bold mb-5">About</h1>
-        <p className="text-base text-slate-700">
-          Hello, I'm Mohammad Amir khan, a passionate Web developer with a keen
-          eye for MERN Stack . With a background in IT, I strive to create
-          impactful and visually stunning Software solutions that leave a
+      <div className="ml-6 pt-3 pb-2" >
+        <h1 className="text-2xl font-bold text-red-700 mb-5 underline">About</h1>
+        <p className="text-base text-gray-300 text-justify ">
+          Hello, I'm Mohammad Amir khan, a passionate web developer with a keen
+          eye for MERN Stack. with a background in IT, I strive to create
+          impactful and visually stunning software solutions that leave a
           lasting impression.
         </p>
         <br />
 
-        <h1 className="text-green-600 font-semibold text-xl">
+        <h1 className="text-red-700 font-semibold text-xl underline">
           Skills & Expertise
         </h1>
         <div>
-            <h4 className="text-lg mt-2 text-slate-700">Programing Languages:</h4>
-            <ul className="px-6 pt-3 flex flex-col gap-3  list-disc">
+            <h4 className=" mt-2 text-gray-300 underline">Programing Languages:</h4>
+            <ul className="px-6 text-gray-200 pt-3 flex flex-col gap-3  list-disc">
             <li className="text-lg">C/Java & DSA</li>
             <li className="text-lg">HTML/CSS</li>
             <li className="text-lg">JavaScript</li>  
@@ -29,20 +29,20 @@ function About() {
             </ul>     
         </div>
 <br />
-        <h1 className="text-green-600 font-semibold text-xl">Education</h1>
-        <span className="text-base text-slate-700">
-          <ul><h1 className=" text-lg mt-2"> BE In Computer Scirnce </h1>
-            <div className="text-lg list-disc flex gap-20 text-black mt-3 pl-5 ">
-              <li className="">CGPA</li>
-              <p>7.91</p>
-              <p>Up to 5th Semester</p>
+        <h1 className="text-red-700 font-semibold text-xl underline">Education</h1>
+        <span className="text-base  ">
+          <ul><h1 className="  mt-2 text-gray-300 underline"> BE In Computer Scirnce </h1>
+            <div className="text-lg list-disc text-gray-200 flex gap-12  mt-3 pl-5 ">
+              <li className="underline text-sm">CGPA</li>
+              <p className="text-sm">7.91</p>
+              <p className="text-wrap text-xs">Up to 5th Semester</p>
             </div>
           
             </ul>
-          <ul><h1 className=" text-lg mt-4"> 12th</h1>
-            <div className=" list-disc flex gap-20 text-black mt-3 pl-5 ">
-              <li className="text-lg">Percentage</li>
-              <p>63%</p>
+          <ul><h1 className=" text-lg mt-4 text-gray-300 underline"> PUC</h1>
+            <div className=" list-disc flex gap-20  mt-3 pl-5 ">
+              <li className=" text-gray-200 underline text-sm">Percentage</li>
+              <p className="text-gray-200">63%</p>
               
             </div>
           
