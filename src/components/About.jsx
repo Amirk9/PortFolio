@@ -72,7 +72,7 @@ const About = () => {
       >
         <h2 className="text-4xl font-bold">About Me</h2>
         <p className="text-gray-400">
-          I am Mohammad Amir Khan, a passionate Information Science and
+          I am Mohammad Amir Khan, a passionate Computer Science and
           Engineering student with a flair for building web applications and
           designing user interfaces. I enjoy solving complex problems and
           turning ideas into reality through clean, efficient code.

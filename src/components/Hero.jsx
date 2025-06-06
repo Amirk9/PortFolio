@@ -43,7 +43,7 @@ const Hero = () => {
         </p>
         <p className="text-lg">A Software Developer</p>
         <p className="text-lg text-gray-400 max-w-xl">
-          I am Mohammad Amir Khan, a passionate Information Science and
+          I am Mohammad Amir Khan, a passionate Computer Science and
           Engineering student with a flair for building web applications and
           designing user interfaces. I enjoy solving complex problems and
           turning ideas into reality through clean, efficient code.
